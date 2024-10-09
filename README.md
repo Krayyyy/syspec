@@ -38,6 +38,10 @@ This bash script provides a quick overview of the system specifications of your 
 
 - Ensure you run the script with sufficient privileges to access all necessary files.
 
+## Contributing
+
+Contributions are welcome! To suggest a feature or report a bug, please open an issue or submit a pull request.
+
 ### License
 
 This script is distributed under the GNU General Public License v3.0 .
