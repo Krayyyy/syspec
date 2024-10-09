@@ -16,11 +16,11 @@ os_version=$(lsb_release -d | awk -F"\t" '{print $2}')
 
 echo -e "\e[1;33mHostname\e[0m: $host"
 echo -e "\e[1;33mDate and Time\e[0m: $current_date"
-echo -e "\e[1;33mUsername\e[0m:  $user_name"
+echo -e "\e[1;33mUsername\e[0m: $user_name"
 echo -e "\e[1;33mUptime\e[0m: $uptime_info"
 echo -e "\e[1;33mSystem version\e[0m: $os_version"
-echo -e "\e[1;33mKernel\e[0m:   $kernel"
-echo -e "\e[1;33mCPU\e[0m:      $cpu"
-echo -e "\e[1;33mTotal memory\e[0m:   $total_mem, \e[1;33mUsed memory\e[0m:  $used_mem, \e[1;33mRemained memory\e[0m:  $free_mem"
+echo -e "\e[1;33mKernel\e[0m: $kernel"
+echo -e "\e[1;33mCPU\e[0m: $cpu"
+echo -e "\e[1;33mTotal memory\e[0m: $total_mem, \e[1;33mUsed memory\e[0m: $used_mem, \e[1;33mRemained memory\e[0m: $free_mem"
 
 exit 0
